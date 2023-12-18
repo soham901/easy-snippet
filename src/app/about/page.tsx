@@ -19,6 +19,16 @@ function About() {
             </div>
           </div>
           <p className="mb-5">
+            You can start contributing to this project by finding issues and by{" "}
+            <a
+              href="https://github.com/soham901/comment-snippet-generator"
+              className="text-blue-500 hover:underline"
+            >
+              contributing on GitHub
+            </a>
+            .
+          </p>
+          <p className="mb-5">
             This project was made by{" "}
             <a
               href="https://twitter.com/soham901x"

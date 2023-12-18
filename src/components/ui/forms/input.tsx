@@ -27,7 +27,7 @@ function Input({
             placeholder={placeholder}
             onChange={onChange}
             value={value}
-            rows={4}
+            rows={6}
           ></textarea>
         ) : (
           <input
