@@ -216,7 +216,7 @@ function Generate() {
               />
             </Link>
             <Link
-              href="https://github.com/soham901/comment-snippet-generator"
+              href="https://github.com/soham901/easy-snippet"
               className="btn bg-content-base  border-2 border-base-content"
             >
               Give a Star

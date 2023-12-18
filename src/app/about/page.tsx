@@ -21,7 +21,7 @@ function About() {
           <p className="mb-5">
             You can start contributing to this project by finding issues and by{" "}
             <a
-              href="https://github.com/soham901/comment-snippet-generator"
+              href="https://github.com/soham901/easy-snippet"
               className="text-blue-500 hover:underline"
             >
               contributing on GitHub
@@ -41,7 +41,7 @@ function About() {
           </p>
           <p className="mb-5 flex justify-center gap-2">
             <Link
-              href="https://github.com/soham901/comment-snippet-generator"
+              href="https://github.com/soham901/easy-snippet"
               className="btn btn-accent"
             >
               Source Code
