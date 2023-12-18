@@ -7,8 +7,8 @@ import Navbar from "@/components/ui/navbar";
 const primaryFont = Poppins({ subsets: ["latin"], weight: "500" });
 
 export const metadata: Metadata = {
-  title: "Comment Snippet Generator",
-  description: "Comment Snippet Generator made by soham901",
+  title: "EasySnippet",
+  description: "EasySnippet made by soham901",
 };
 
 export default function RootLayout({

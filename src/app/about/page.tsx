@@ -10,7 +10,7 @@ function About() {
           <h1 className="mb-4 leading-tight text-5xl font-bold">
             About
             {/* <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-pink-600">
-              Comment Snippet Generator
+              EasySnippet
             </span> */}
           </h1>
           <div className="mb-12">

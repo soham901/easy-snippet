@@ -62,8 +62,13 @@ function Navbar() {
               </svg>
             </label>
           </div>
-          <div className="flex-1 px-2 mx-2">
-            <Link href="/">Comment Snippet Generator</Link>
+          <div className="flex-1 px-2 mx-2 text-2xl font-bold">
+            <Link href="/">
+              <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-pink-600">
+                Easy
+              </span>
+              Snippet
+            </Link>
           </div>
           <div className="flex-none hidden lg:block">
             <ul className="menu menu-horizontal gap-2">

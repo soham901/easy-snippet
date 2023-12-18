@@ -18,6 +18,7 @@ function Generate() {
   const [comment, setComment] = useState("");
   const [liked, setLiked] = useState(false);
   const [isDownloaded, setIsDownloaded] = useState(false);
+  const [showMsg, setShowMsg] = useState(false);
 
   const onAuthorChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setAuthor(e.target.value);
@@ -80,6 +81,10 @@ function Generate() {
     setRandoms();
     setIsDownloaded(false);
     console.log("useEffect");
+
+    setTimeout(() => {
+      setShowMsg(true);
+    }, 3000);
   }, []);
 
   return (
@@ -91,9 +96,11 @@ function Generate() {
           label="Author"
           onChange={onAuthorChange}
           value={author}
-          // btn={
-
-          // }
+          btm={
+            <div className="text-md mt-2 animate-pulse text-red-400">
+              {author.length == 7 && "Thala for a reason"}
+            </div>
+          }
         />
         <Input
           label="Comment"
@@ -107,6 +114,14 @@ function Generate() {
         <button onClick={onGenerate} className="btn btn-success">
           Generate
         </button>
+
+        {showMsg && (
+          <div className="toast">
+            <div className="alert alert-info animate-bounce">
+              <span>Use 7 characters for name to get best results</span>
+            </div>
+          </div>
+        )}
       </div>
 
       <dialog id="my_modal_2" className="modal">

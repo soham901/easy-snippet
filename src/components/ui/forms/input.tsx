@@ -6,14 +6,14 @@ function Input({
   type = "text",
   value = "",
   onChange,
-  btn = false,
+  btm = null,
 }: {
   label?: string;
   placeholder?: string;
   type?: string;
   value?: string;
   onChange?: (e: any) => void;
-  btn?: React.ReactNode;
+  btm?: React.ReactNode;
 }) {
   return (
     <label className="form-control w-full">
@@ -38,9 +38,7 @@ function Input({
             className="input input-bordered w-full"
           />
         )}
-        {btn && (
-          <div className="absolute top-0 right-0 rounded-l-none">{btn}</div>
-        )}
+        {btm}
       </div>
     </label>
   );
