@@ -13,7 +13,8 @@ export default function Home() {
             <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-pink-600">
               Easy {" "}<span className="text-white">Snippet</span>
             </span>
-            <p></p>
+            Generator
+            <p>Your go to WebApp for generating snippets for YT comments</p>
           </h1>
           <div className="mb-12">
             <div className="badge badge-outline">
