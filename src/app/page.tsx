@@ -23,7 +23,7 @@ export default function Home() {
             </div>
           </div>
           <p className="mb-5">
-            Your go to WebApp for generating snippets for YT comments. No more
+            Your go to WebApp for generating snippets for IG comments. No more
             wasting time on editing the template.
           </p>
           <Link
