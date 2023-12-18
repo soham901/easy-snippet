@@ -9,21 +9,22 @@ export default function Home() {
       <div className="text-center hero-content">
         <div className="max-w-xl">
           <h1 className="mb-4 leading-tight text-5xl font-bold">
-            Welcome to{" "}
-            <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-pink-600">
-              Easy {" "}<span className="text-white">Snippet</span>
-            </span>
-            Generator
-            <p>Your go to WebApp for generating snippets for YT comments</p>
+            <div className="">Welcome to</div>
+            <div className="">
+              <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-pink-600">
+                Easy Snippet
+              </span>
+            </div>
           </h1>
+
           <div className="mb-12">
             <div className="badge badge-outline">
               Specially Made for ezSnippets
             </div>
           </div>
           <p className="mb-5">
-            Paste your content and generate a comment snippet in seconds. No
-            more wasting time on editing the template.
+            Your go to WebApp for generating snippets for YT comments. No more
+            wasting time on editing the template.
           </p>
           <Link
             href="/generate"
